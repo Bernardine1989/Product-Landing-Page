@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kong Toys | Landing Page</title>
+    <!--=====================================
+        CUSTOM CSS
+======================================-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media-queries.css">
+    <!--=====================================
+        FONTS
+======================================-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700&display=swap" rel="stylesheet">
+    <!--=====================================
+        ICONS
+======================================-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+
+        <div class="top">
+            <div class="logo">
+                <img src="res/kong-logo.png" id="header-img" />
+            </div>
+            <div class="navigation">
+                <nav id="nav-bar">
+                    <ul class="nav">
+                        <li><a class="nav-link" href="#features">Features</a></li>
+                        <li><a class="nav-link" href="#how-it-works">How it Works</a></li>
+                        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="hero-inner">
+                <h1>Kong Classic Toys</h1>
+                <p>Hurry and pre-order your Kong Classic today!</p>
+                <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                    <input id="email" type="email" name="email" placeholder="Enter Your Email" required>
+                    <input id="submit" type="submit" value="Pre-Order" />
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="features" class="row">
+            <section class="feat">
+                <h2>Features</h2>
+                <div class="feat-list">
+                    <div class="feature1">
+                        <p><i class="icon ion-ios-fitness"></i></p>
+                        <p>Strong and Durable</p>
+                    </div>
+                    <div class="feature2">
+                        <p><i class="icon ion-ios-clock"></i></p>
+                        <p>Hours of Fun</p>
+                    </div>
+                    <div class="feature3">
+                        <p><i class="icon ion-ios-paw"></i></p>
+                        <p>Perfect for Training</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="how-it-works" class="row">
+            <h2>How it Works</h2>
+            <div class="content">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/NMh6kJArGHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Kong toys are not only durable, they are also an amazing tool for training your pooch! The Kong Classic can be filled with your dog's favorite treats. Some dogs are extremely destructive and will destroy almost any toy you give them, but rest assured because the Kong Classic is made from a super durable rubber which is virtually indestructable.</p>
+            </div>
+        </div>
+        <div id="pricing">
+            <div class="price-row">
+                <div class="price">
+                    <h3>Kong Classic Small</h3>
+                    <img class="kong" src="res/kong-classic.png" alt="kong-classic-small" />
+                    <div class="amount">
+                        <p class="amt">&#36;9.99</p>
+                        <p>The Kong Classic Small is intended for smaller breeds like Chihuahua's.</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <h3>Kong Classic Medium</h3>
+                    <img class="kong" src="res/kong-classic.png" alt="kong-classic-medium" />
+                    <div class="amount">
+                        <p class="amt">&#36;19.99</p>
+                        <p>The Kong Classic Medium is intended for medium breeds like Beagles.</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <h3>Kong Classic Large</h3>
+                    <img class="kong" src="res/kong-classic.png" alt="kong-classic-large" />
+                    <div class="amount">
+                        <p class="amt">&#36;29.99</p>
+                        <p>The Kong Classic Large is intended for large breeds like German Shepherds.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="row">
+            <h4>Contact Us</h4>
+            <p class="tel"><i class="icon ion-md-call"></i> (021)-999-1324</p>
+            <p class="email"><i class="icon ion-md-mail"></i> info@kong.com</p>
+            <p class="facebook"><i class="icon ion-logo-facebook"></i> facebook/kong</p>
+            <p class="small">&copy; Copyright Kong 2019 | All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body></html>
